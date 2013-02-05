@@ -43,7 +43,6 @@ class google_chrome(
   google_chrome::installation { 'Google Chrome':
     source      => $source,
     destination => $destination,
-    }
   }
 
 }
