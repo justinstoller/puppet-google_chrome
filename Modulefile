@@ -1,0 +1,8 @@
+name    'justinstoller/google_chrome'
+version '0.0.1'
+source 'https://github.com/justinstoller/puppet-google_chrome.git'
+author 'justinstoller'
+license 'Apache License, Version 2.0'
+summary 'Installs Google Chrome MSI'
+description 'Installs Google Chrome MSI'
+project_page 'https://github.com/justinstoller/puppet-google_chrome'
