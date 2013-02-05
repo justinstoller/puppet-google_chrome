@@ -37,7 +37,7 @@
 #
 class google_chrome(
   $source      = undef,
-  $destination = 'C:\\packages'
+  $destination = 'C:\packages'
 ) {
 
   google_chrome::installation { 'Google Chrome':

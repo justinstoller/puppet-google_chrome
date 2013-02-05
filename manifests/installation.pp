@@ -1,6 +1,6 @@
 define google_chrome::installation(
   $source      = undef,
-  $destination = 'C:\\packages'
+  $destination = 'C:\packages'
 ) {
 
   if $source {
