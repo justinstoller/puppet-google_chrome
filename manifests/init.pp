@@ -36,8 +36,8 @@
 # Copyright 2013 Your name here, unless otherwise noted.
 #
 class google_chrome(
-  $source      => undef,
-  $destination => 'C:\\packages'
+  $source      = undef,
+  $destination = 'C:\\packages'
 ) {
 
   google_chrome::installation { 'Google Chrome':

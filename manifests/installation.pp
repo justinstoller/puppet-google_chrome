@@ -1,6 +1,6 @@
 define google_chrome::installation(
-  source => undef,
-  destination => 'C:\\packages'
+  source      = undef,
+  destination = 'C:\\packages'
 ) {
 
   if $source {
@@ -17,8 +17,8 @@ define google_chrome::installation(
   }
 
   package { 'Google Chrome':
-    ensure => installed,
+    ensure          => installed,
     install_options => [ '/q', '/norestart' ],
-    source => $on_disk,
+    source          => $on_disk,
   }
 }
